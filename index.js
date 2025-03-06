@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Listening to Spotify", "🎮 Playing VALORANT"];
+const statusMessages = ["One apple fell and the world realized the law of gravity. Thousands of bodies fell and the world did not realize the meaning of humanity.", "You will remain ignorant as long as you claim to know..", "“However difficult life may seem, there is always something you can do and succeed at.” ..."];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
